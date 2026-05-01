@@ -1,0 +1,46 @@
+# ============================================================
+# date.txt - Cinematograf POO
+# ============================================================
+
+[SALI]
+# id|nume|capacitate|tip
+1|Sala Albastra|30|2D
+2|Sala Rosie|40|3D
+3|Sala IMAX|50|IMAX
+4|Sala Mica|20|2D
+
+[PROIECTII]
+# tip|titlu|id_sala|data_ora|pret_baza[|extra]
+standard|Inception|1|25/03/2025 20:00|35.0
+standard|The Dark Knight|2|25/03/2025 18:00|40.0
+imax|Oppenheimer|3|26/03/2025 19:30|55.0|1.6
+speciala|Dune|2|26/03/2025 21:00|60.0|premiera
+standard|Interstellar|1|27/03/2025 20:00|35.0
+speciala|Past Lives|4|28/03/2025 17:00|50.0|festival
+imax|Avatar 2|3|27/03/2025 17:00|55.0|1.5
+
+[BILETE]
+# id_proiectie(index 0-based)|nr_loc(0-based)|tip_bilet
+0|0|adult
+0|1|copil
+0|2|senior
+0|3|student
+0|4|adult
+1|0|adult
+1|1|adult
+1|2|copil
+1|3|student
+2|0|adult
+2|1|adult
+2|2|student
+2|3|senior
+2|4|adult
+3|0|adult
+3|1|adult
+3|2|adult
+4|5|adult
+4|6|senior
+5|0|adult
+5|1|student
+6|10|adult
+6|11|student
