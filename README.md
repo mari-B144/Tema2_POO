@@ -5,13 +5,6 @@ Se pot adauga proiectii de tipuri diferite, vinde si anula bilete si vizualiza r
 
 Datele se incarca automat din `date.txt` la pornire.
 
-## Compilare si rulare
-
-```
-make
-./cinematograf
-```
-
 ## Ce face programul
 
 La pornire incarca toate salile, proiectiile si biletele din `date.txt`, apoi afiseaza un meniu interactiv cu urmatoarele optiuni:
