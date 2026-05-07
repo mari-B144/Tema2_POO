@@ -42,15 +42,16 @@
 
 #include <iostream>
 #include <string>
-#include <memory>
-#include <limits>
-#include <iomanip>
+#include <memory>//oferă unelte pentru gestionarea memoriei, cel mai important std::shared_ptr
+//și std::unique_ptr — pointeri inteligenți care se ocupă singuri de delete
+
+#include <limits>//oferă informații despre valorile minime și maxime ale tipurilor de date din C++.
+#include <iomanip> //controlează formatul în care std::cout afișează numerele
 #include "Cinematograf.h"
 #include "Proiectie.h"
 #include "ProiectieVIP.h"
 #include "Exceptii.h"
 
-// ── utilitare I/O ─────────────────────────────────────────────────────────────
 
 static void linie(char c = '-', int n = 52) {
     for (int i = 0; i < n; ++i) std::cout << c;

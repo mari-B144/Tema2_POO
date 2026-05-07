@@ -3,11 +3,11 @@
 
 #include "Proiectie.h"
 
-// ============================================================
+
 //  ProiectieVIP  -  a 4-a clasa derivata, adaugata separat
 //  Sala VIP cu servicii premium (open bar, scaune reclinabile)
 //  Pret = pretBaza + taxaServicii
-// ============================================================
+
 class ProiectieVIP : public Proiectie {
 public:
     ProiectieVIP(const std::string& titlu,

@@ -10,7 +10,7 @@
 
 class EroareCinematograf : public std::runtime_error {
 public:
-    explicit EroareCinematograf(const std::string& mesaj)
+    explicit EroareCinematograf(const std::string& mesaj)//nu permit conversii automate
         : std::runtime_error("[Cinematograf] " + mesaj) {}
 };
 
